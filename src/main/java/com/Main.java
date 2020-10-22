@@ -2,7 +2,9 @@ package com;
 
 import java.util.Scanner;
 
-public class Main {
+public final class Main {
+    private Main() {};
+
     public static void main(String[] args) {
         System.out.println(new Interpreter().produceQuestion());
         System.out.println("This is" +
